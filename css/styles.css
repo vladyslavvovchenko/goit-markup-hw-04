@@ -515,6 +515,9 @@ width: 206px;
 .portfolio-button:focus {
   color: var(--primery-white-color);
   background-color: var(--accent-hover-color);
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1),
+  0px 1px 2px rgba(0, 0, 0, 0.08),
+  0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
 /* меню */
@@ -532,6 +535,13 @@ width: 206px;
   border: 1px solid #EEEEEE;
   color: var(--primary-text-color);
   background-color: var(--primery-white-color);
+}
+
+.services:hover,
+.services:focus{
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12),
+  0px 4px 4px rgba(0, 0, 0, 0.06),
+  1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
 .services:nth-child(3n) {
