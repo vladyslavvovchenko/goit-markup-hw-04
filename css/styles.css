@@ -61,6 +61,12 @@ body {
   display: flex;
 }
 
+.logo-pad-mr{
+margin-right: 93px;
+padding-top: 24px;
+padding-bottom: 25px;
+}
+
 .logo {
   color: var(--accent-hover-color);
   font-family: Raleway, sans-serif;
@@ -68,9 +74,6 @@ body {
   font-size: 26px;
   line-height: 1.2;
   text-decoration: none;
-  margin-right: 93px;
-  padding-top: 24px;
-  padding-bottom: 25px;
 }
 
 .second-logo {
@@ -339,7 +342,8 @@ width: 206px;
   fill: #AFB1B8;
 }
 
-.social-link:hover {
+.social-link:hover,
+.social-link:focus {
   background-color: var(--accent-hover-color);
   fill: var(--primery-white-color);
 }
@@ -401,7 +405,7 @@ width: 206px;
 } 
 
 .address {
-  border: 231px 0;
+  width: 231px;
   margin-top: 20px;
   padding: 0;
 }
